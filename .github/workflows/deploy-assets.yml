@@ -7,7 +7,8 @@ jobs:
   build_css:
     runs-on: ubuntu-latest
     env:
-      environment: cdn
+      bucket: cdn
+      environment: www
       source: .
       destination: assets/logos/
     steps:
@@ -21,7 +22,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-east-1'
         run:
-          aws s3 sync --no-progress --exclude '.git/*' --exclude '.github/*' ${{ env.source }} s3://${{ env.environment }}.w3.org/${{ env.destination }}
+          aws s3 sync --no-progress --exclude '.git/*' --exclude '.github/*' ${{ env.source }} s3://${{ env.bucket }}.w3.org/${{ env.bucket }}
 
       - name: Purge cache for ${{ env.environment }}
         uses: nathanvaughn/actions-cloudflare-purge@master
