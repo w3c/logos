@@ -1,0 +1,1 @@
+Same logos as in ../w33-2025, but with a cleaned-up symbol: the diagonals are straight lines, parallel to one another, and equidistant; the line ends all point in the same direction (45°); the end of the left curve and the right curve are on a virtual line that connects them.
