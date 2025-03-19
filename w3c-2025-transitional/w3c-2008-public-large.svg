@@ -25,11 +25,11 @@
          offset="0"
          id="stop1" />
       <stop
-         style="stop-color:#005b9c"
+         style="stop-color:#005a9c"
          offset="0.82716405"
          id="stop2" />
       <stop
-         style="stop-color:#005b9c"
+         style="stop-color:#005a9c"
          offset="1"
          id="stop3" />
     </linearGradient>
