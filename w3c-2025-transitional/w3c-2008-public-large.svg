@@ -37,7 +37,7 @@
   <path
      id="bg"
      d="M 0,107 H 249 V 0 H 0 Z"
-     style="fill:url(#linearGradient3);stroke-width:0.155574" />
+     style="fill:#005a9c;stroke-width:0.155574" />
   <g
      id="logo"
      transform="matrix(0.26257296,0,0,0.26240129,35.097458,5.7217574)">

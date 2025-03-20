@@ -42,7 +42,7 @@
   <path
      id="bg"
      d="M 0,53 H 90 V 0 H 0 Z"
-     style="fill:url(#linearGradient3);stroke-width:0.07706" />
+     style="fill:#005a9c;stroke-width:0.07706" />
   <g
      id="g1"
      transform="matrix(0.38627691,0,0,0.38627691,17.610659,3.0680965)">
