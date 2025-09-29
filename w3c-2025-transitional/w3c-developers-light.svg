@@ -11,7 +11,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs6" /><path
-     d="M 32.136547,215.67688 0,107.8395 32.136547,0.00212184 H 767.8616 L 799.99815,107.8395 767.8616,215.67688 Z"
+     d="M 0,216 V 0 h 800 v 216 z"
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00783"
      id="background" /><g
      id="g3"
